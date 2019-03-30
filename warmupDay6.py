@@ -1,5 +1,19 @@
 # File name: warmupDay6.py
-myname = "Ava"
-guess = input("Guess my Name")
-while guess != myname:
-    guess = input("That is not my name")
+secretnumber = 7
+
+guess = input("Guess the secret number: ")
+if secretnumber == int(guess):
+    print("right number")
+elif secretnumber < int(guess):
+    print("guess too high")
+else:
+    print("guess too low")
+print("gmae over")
+
+n = 4
+m = 5
+print(n**m)
+
+n = 4
+m = 5
+while n <= n**m:
