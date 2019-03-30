@@ -6,7 +6,7 @@ if secretnumber == int(guess):
     print("right number")
 elif secretnumber < int(guess):
     print("guess too high")
-else:
+elif:
     print("guess too low")
 print("gmae over")
 
